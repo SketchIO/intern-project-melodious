@@ -45,6 +45,7 @@ export async function learnMelody() {
     }
     if (value === 'dorma') {
       melody = getMelodyDorma()
+      MIDI.channels[0].programID = 3
     }
   }
   setMelody()
