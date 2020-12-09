@@ -109,4 +109,6 @@ export function getMelodyGreensleeves() {
       keyToHighlight: '',
       syllable: '',
       noteID: 0
-    },
+    }
+  ]
+}

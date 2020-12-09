@@ -87,7 +87,7 @@ export function getMelodyRainbow() {
     },
     {
       keyToHighlight: 'a3',
-      syllable: 'dreamed',
+      syllable: 'heard',
       noteID: 15
     },
     {
