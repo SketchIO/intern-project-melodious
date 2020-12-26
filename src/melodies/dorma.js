@@ -19,87 +19,77 @@ export function getMelodyDorma() {
     {
       keyToHighlight: 'fs3',
       syllable: 'le',
-      noteID: 0
+      noteID: 1
     },
     {
       keyToHighlight: 'g3',
       syllable: 'gua, o',
-      noteID: 0
+      noteID: 2
     },
     {
-      keyToHighlight: 'a3',
+      keyToHighlight: 'a4',
       syllable: 'notte! tramonta',
-      noteID: 0
+      noteID: 3
     },
     {
       keyToHighlight: 'fs3',
-      syllable: 'te stelle',
-      noteID: 0
-    },
-    {
-      keyToHighlight: 'fs3',
-      syllable: 'tramonta',
-      noteID: 0
+      syllable: 'te stelle tramonta',
+      noteID: 4
     },
     {
       keyToHighlight: 'd3',
       syllable: 'te',
-      noteID: 0
+      noteID: 5
     },
     {
       keyToHighlight: 'a3',
-      syllable: 'stelle!',
-      noteID: 0
-    },
-    {
-      keyToHighlight: 'a3',
-      syllable: 'All\'alba',
-      noteID: 0
+      syllable: 'stelle! All\'alba',
+      noteID: 6
     },
     {
       keyToHighlight: 'e3',
       syllable: 'vin',
-      noteID: 0
+      noteID: 7
     },
     {
       keyToHighlight: 'cs3',
       syllable: 'ce',
-      noteID: 0
+      noteID: 8
     },
     {
       keyToHighlight: 'd3',
       syllable: 'rò',
-      noteID: 0
+      noteID: 9
     },
     {
       keyToHighlight: 'b3',
       syllable: 'vin',
-      noteID: 0
+      noteID: 10
     },
     {
       keyToHighlight: 'd3',
       syllable: 'ce',
-      noteID: 0
+      noteID: 11
     },
     {
       keyToHighlight: 'g3',
       syllable: 'rò',
-      noteID: 0
+      noteID: 12
     },
     {
       keyToHighlight: 'd3',
       syllable: 'vin',
-      noteID: 0
+      noteID: 13
     },
     {
       keyToHighlight: 'b4',
       syllable: 'ce',
-      noteID: 0
+      noteID: 14
     },
     {
       keyToHighlight: 'a4',
       syllable: 'rò',
-      noteID: 0
+      noteID: 15
     },
     
   ]

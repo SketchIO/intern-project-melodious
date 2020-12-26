@@ -72,6 +72,8 @@ window.addEventListener('load', (event) => {  // may want to remove...
     MIDI.channels = 1
     const { default: program } = await import('./../singingNotes/index.json')
     const { default: rainbow } = await import('./../rainbow/index.json')
+    const { default: sun } = await import('./../sun/index.json')
+    const { default: dorma } = await import('./../dorma/index.json')
     await MIDI.programs.load({
       programID: 0,
       program
@@ -79,6 +81,14 @@ window.addEventListener('load', (event) => {  // may want to remove...
     await MIDI.programs.load({
       programID: 1,
       program: rainbow
+    })
+    await MIDI.programs.load({
+      programID: 2,
+      program: sun
+    })
+    await MIDI.programs.load({
+      programID: 3,
+      program: dorma
     })
     await MIDI.jobs.wait()
 
@@ -109,6 +119,8 @@ window.addEventListener('load', (event) => {  // may want to remove...
       })
       dropDown.classList.add('hidden')
     }
+
+
 
     // LEARN MELODY MODE
     if (checkedButton === 'learn-melody') {

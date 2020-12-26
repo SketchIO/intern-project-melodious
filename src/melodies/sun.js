@@ -52,7 +52,7 @@ export function getMelodySun() {
       noteID: 7
     },
     {
-      keyToHighlight: 'cs3',
+      keyToHighlight: 'a3',
       syllable: 'cold',
       noteID: 8
     },
@@ -153,7 +153,7 @@ export function getMelodySun() {
     },
     {
       keyToHighlight: 'a3',
-      syllable: 'sun',
+      syllable: 'sun.',
       noteID: 28
     },
     {
@@ -203,7 +203,7 @@ export function getMelodySun() {
     },
     {
       keyToHighlight: 'a3',
-      syllable: 'right',
+      syllable: 'right.',
       noteID: 38
     }
   ]
